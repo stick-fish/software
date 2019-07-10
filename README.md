@@ -27,3 +27,15 @@ https://pentestacademy.wordpress.com/2017/09/20/nfs/
 https://github.com/giampaolo/pyftpdlib
 <code>sudo apt install pyftpdlib</code>
 
+<h3>Cherry Tree</h3>
+https://www.giuspen.com/cherrytree/
+<code>sudo add-apt-repository ppa:giuspen/ppa</code>
+<code>sudo apt-get update</code>
+<code>sudo apt install cherrytree</code>
+
+<h3>enum4linux fix & nmap smb scripts</h3>
+Found this online to fix some of the errors during pwk:
+<code>edit:- /etc/samba/smb.conf in the [global] section:</code>
+<code>client min protocol = SMB2</code>
+<code>client max protocol = SMB3</code>
+
