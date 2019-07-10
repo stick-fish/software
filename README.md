@@ -14,4 +14,13 @@ Bare minimum for a new VM Installation
  </ul>
 
 <h3>NFSShell</h3>
-Coming soon..
+<ul>
+  <li><code>apt-get install libreadline-dev libncurses5-dev</code></li>
+  <li><code>make</code></li>
+  <li><code>gcc -g -o nfsshell mount_clnt.o mount_xdr.o nfs_prot_clnt.o nfs_prot_xdr.o nfsshell.o -L/usr/local/lib -lreadline -lhistory -lncurses</code></li>
+  <li><code>./nfsshell</code></li>
+</ul>
+
+<h3>Python FTP Server</h3>
+<code>sudo apt install pyftpdlib</code>
+
