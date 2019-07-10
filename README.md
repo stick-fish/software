@@ -2,6 +2,7 @@
 Bare minimum for a new VM Installation
 
 <h3>Screenshots</h3>
+https://github.com/GNOME/gnome-screenshot
 <ul>
   <li>GNOME Screenshot (for GNOME desktop users)</li>
   <li> Runs on Kali, Kubuntu KDE, Mint 19 XFCE without problems </li>
@@ -14,6 +15,7 @@ Bare minimum for a new VM Installation
  </ul>
 
 <h3>NFSShell</h3>
+https://pentestacademy.wordpress.com/2017/09/20/nfs/
 <ul>
   <li><code>apt-get install libreadline-dev libncurses5-dev</code></li>
   <li><code>make</code></li>
@@ -22,5 +24,6 @@ Bare minimum for a new VM Installation
 </ul>
 
 <h3>Python FTP Server</h3>
+https://github.com/giampaolo/pyftpdlib
 <code>sudo apt install pyftpdlib</code>
 
